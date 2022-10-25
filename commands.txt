@@ -1,2 +1,3 @@
 git init - initializes a  git repo
-
+git clone - clones an existing repo to your working directory
+git diff- takes two input data sets and outputs the changes between them
