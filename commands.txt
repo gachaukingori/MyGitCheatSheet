@@ -1,5 +1,18 @@
 git init - initializes a  git repo
 git clone - clones an existing repo to your working directory
+
 git diff- takes two input data sets and outputs the changes between them
+git diff --cached comapares the staged changes with the local repository
 
 git stash- temporarily shelves (or stashes) changes you've made to your working copy so you can work on something else, and then come back and re-apply them later on
+
+git stash pop ->  removes the changes from your stash and reapplies them to your working copy.
+
+git stash apply ->  you can reapply the changes to your working copy and keep them in your stash
+
+git stash -u  / git stash --include-untracked -> includes untracked files because they arent stashed by default
+git stash -a / git stash --all -> includes all ignored files because they are not stashed by default
+
+git stash save "message" - give your stashes a description
+
+git stash list -> view multiple stashes
