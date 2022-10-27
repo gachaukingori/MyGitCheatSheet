@@ -1,6 +1,13 @@
 git init - initializes a  git repo
 git clone - clones an existing repo to your working directory
 
+git commit -> launches a text editor to enter your commit message and saves(commits) 
+		your staged changes
+git commit -a ->  commits all changes in the working directory
+git commit -m "message " -> commits your changes with a message
+git commit -am => combines git commit -a and git commit -m
+git commit --ammend -> modifies the previous commit
+
 git diff- takes two input data sets and outputs the changes between them
 git diff --cached comapares the staged changes with the local repository
 
@@ -17,14 +24,10 @@ git stash -a / git stash --all -> includes all ignored files because they are no
 git stash save "message" - give your stashes a description
 
 git stash list -> view multiple stashes
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
-test
-=======
+
 
 git stash pop  stash@{1}-> choose which stash to re-apply by passing its identifier as the last argument
 
 git stash -p -> partial stash
-test 
->>>>>>> Stashed changes
+
+
