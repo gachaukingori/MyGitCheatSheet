@@ -30,4 +30,5 @@ git stash pop  stash@{1}-> choose which stash to re-apply by passing its identif
 
 git stash -p -> partial stash
 
+git stash clear -> clears all your stash
 
