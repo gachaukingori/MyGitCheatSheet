@@ -19,3 +19,4 @@ git stash save "message" - give your stashes a description
 git stash list -> view multiple stashes
 =======
 >>>>>>> Stashed changes
+test
