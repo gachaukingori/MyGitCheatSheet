@@ -1,6 +1,9 @@
+#Getting started - initializing a repository
 git init - initializes a  git repo
 git clone - clones an existing repo to your working directory
 
+#saving your changes
+git add -> add a file to the staging area 
 git commit -> launches a text editor to enter your commit message and saves(commits) 
 		your staged changes
 git commit -a ->  commits all changes in the working directory
@@ -8,10 +11,12 @@ git commit -m "message " -> commits your changes with a message
 git commit -am => combines git commit -a and git commit -m
 git commit --ammend -> modifies the previous commit
 
+# changes between your working directory and your repository
 git diff- takes two input data sets and outputs the changes between them
 git diff --cached comapares the staged changes with the local repository
 
 
+#temporary shelve your changes and work on another change and later come back to finish your changes
 git stash- temporarily shelves (or stashes) changes you've made to your working copy so you can work on something else, and then come back and re-apply them later on
 
 git stash pop ->  removes the changes from your stash and reapplies them to your working copy.
@@ -35,5 +40,8 @@ git stash drop stash@{1) -> delete a particular stash
 
 git stash clear -> clears all your stash
 
+#git ignore 
+
+git rm --cached filename -> deletes the file from the repository but keeps it as ignored file in your working directory
 
 
