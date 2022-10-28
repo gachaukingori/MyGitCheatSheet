@@ -44,4 +44,7 @@ git stash clear -> clears all your stash
 
 git rm --cached filename -> deletes the file from the repository but keeps it as ignored file in your working directory
 
+#inspecting a git repository
+git status -> displays the current state of the working directory and the staging area
+
 
