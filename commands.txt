@@ -62,7 +62,10 @@ git checkout -> easy way to “load” any of these saved snapshots onto your de
 git checkout <correct commit before the one you want to undo > -b "new branch name" 		-> creates a new branch with the commits before the commit you are undoing
 
 
-this is adding something craxy in here 
+this is adding something craxy in here
+
+this is testing git revert
+
 
 
 
