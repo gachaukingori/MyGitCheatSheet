@@ -61,8 +61,7 @@ git checkout -> easy way to “load” any of these saved snapshots onto your de
 #undo a commit with git checkout
 git checkout <correct commit before the one you want to undo > -b "new branch name" 		-> creates a new branch with the commits before the commit you are undoing
 
-
-this is adding something craxy in here 
+git revert <commit> -> create a new commit with the inverse of the last commit
 
 We are now testing git reset
 
