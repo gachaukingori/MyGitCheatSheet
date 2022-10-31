@@ -56,6 +56,13 @@ git log --branches=*  -> logs commits across all branches
 
 git branch -> view and visit other branches
 
+git checkout -> easy way to “load” any of these saved snapshots onto your development machine
+
+#undo a commit with git checkout
+git checkout <correct commit before the one you want to undo > -b "new branch name" 		-> creates a new branch with the commits before the commit you are undoing
+
+
+this is adding something craxy in here 
 
 
 
