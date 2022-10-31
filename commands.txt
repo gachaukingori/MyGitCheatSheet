@@ -47,4 +47,16 @@ git rm --cached filename -> deletes the file from the repository but keeps it as
 #inspecting a git repository
 git status -> displays the current state of the working directory and the staging area
 
+git blame -> display of author metadata attached to specific committed lines in a file
+
+git log -> command displays committed snapshots, will only show logs for the currently selected branch
+
+#branching
+git log --branches=*  -> logs commits across all branches
+
+git branch -> view and visit other branches
+
+
+
+
 
