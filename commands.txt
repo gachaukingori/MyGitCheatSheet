@@ -64,6 +64,11 @@ git checkout <correct commit before the one you want to undo > -b "new branch na
 
 this is adding something craxy in here 
 
+We are now testing git reset
+
+all this will be rsestt
+
+
 
 
 
