@@ -56,7 +56,6 @@ git log --branches=*  -> logs commits across all branches
 
 git branch -> view and visit other branches
 
-git checkout -> easy way to “load” any of these saved snapshots onto your development machine
 
 
 
