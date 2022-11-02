@@ -63,6 +63,12 @@ git checkout <correct commit before the one you want to undo > -b "new branch na
 
 git revert <commit> -> create a new commit with the inverse of the last commit
 
+<<<<<<< HEAD
+=======
+git reset <commit> -> resets the commit history to the specified commit
+
+git clean -- force -> operates on untracked files, equivalent to rm command utility and its not undoable
+>>>>>>> a28e276
 
 
 
