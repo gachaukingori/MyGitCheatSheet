@@ -63,10 +63,6 @@ git checkout <correct commit before the one you want to undo > -b "new branch na
 
 git revert <commit> -> create a new commit with the inverse of the last commit
 
-We are now testing git reset
-
-all this will be rsestt
-
 
 
 
