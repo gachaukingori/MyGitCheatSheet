@@ -1,3 +1,0 @@
-git reset <commit> -> resets the commit history to the specified commit
-
-git clean -- force -> operates on untracked files, equivalent to rm command utility and its not undoable
