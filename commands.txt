@@ -96,6 +96,15 @@ git push <remote> --tags -> pushes all the tags to your remote repo
 2. Rebase your changes on top of them git rebase -i origin/main
 3. push your changes git push <remote> <branch>
 
+#pushing an ammended commit will result to an error
+git push <remote> <branch> --force
+
+#deleting a brannch 
+
+git branch -D branch_name -> deletes a branch from the local repository
+
+git push <remote> :branch_name -> deletes the branch from the central repository
+
 
 
 
