@@ -78,8 +78,23 @@ git push <remote-name> <branch -name>
 
 git fetch <remote-name> -> downloads commmits, files, from a remote repostory 
 
+git branch -r  -> lists all the remote branches
 
+git checkout remote/branch -> to inspect a remote branch after fetching 
 
+git push <remote> <branch> -> uploads your changes from the local repo to the remote repo
+
+git push <remote> --force -> forces push even when there is a non fast-forward merge
+
+git push <remote> --all -> pushes all your branches to the remote
+
+git push <remote> --tags -> pushes all the tags to your remote repo
+
+#Standard way to push your changes
+
+1. make sure your local repo is upto date with the central repo by running a git fetch <remote> git fetch origin main
+2. Rebase your changes on top of them git rebase -i origin/main
+3. push your changes git push <remote> <branch>
 
 
 
