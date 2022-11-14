@@ -70,7 +70,7 @@ git clean -- force -> operates on untracked files, equivalent to rm command util
 REWRITING HISTORY (amend, rebase,rebase -i, reflog)
 git commit --amend -> modifies your most recent commit
 git rebase <base> -> automatically takes commits in your current working branch and apply them to the passed branch 
-git rebase -i <base> ->
+git rebase -i <base> -> allows you to alter your commits during rebasin (i => interactive)
 
 COLLABORATING ON GIT
 git remote -> create, view, delete connections to other repositories
