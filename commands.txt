@@ -65,7 +65,12 @@ git revert <commit> -> create a new commit with the inverse of the last commit
 
 git reset <commit> -> resets the commit history to the specified commit
 
-git clean -- force -> operates on untracked files, equivalent to rm command utility and its not undoable
+git clean -- force -> operates on untracked files, equivalent to rm command utility and its not undoab
+
+REWRITING HISTORY (amend, rebase,rebase -i, reflog)
+git commit --amend -> modifies your most recent commit
+git rebase <base> -> takes commits in your current working branch and apply them to the passed branch 
+
 
 COLLABORATING ON GIT
 git remote -> create, view, delete connections to other repositories
