@@ -110,7 +110,12 @@ git branch -D branch_name -> deletes a branch from the local repository
 
 git push <remote> :branch_name -> deletes the branch from the central repository
 
+git pull -> Combines git fetch and git merge - fetch the remote repo and apply git merge
 
+git pull <remote> -> fetch the specified remote and merge it to the local repo.
+			git fetch <remote>
+			git merge origin/<current-branch>
+git pull --no-commit <remote>  -> 
 
 
 
