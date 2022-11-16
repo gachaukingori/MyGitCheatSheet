@@ -116,8 +116,11 @@ git pull <remote> -> fetch the specified remote and merge it to the local repo.
 			git fetch <remote>
 			git merge origin/<current-branch>
 git pull --no-commit -> fetches the remote content but does not create a new merge commit.
+git pull -- rebase -> Instead of using git merge to integrate the remote branch with the local one, use git rebase
 
+#configuring git pull -reabse because its very commmon instead of git pull with merge it runs git pull with rebase
 
+git config --global branch.autosetuprebase always
 
 
 
