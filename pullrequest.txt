@@ -1,0 +1,34 @@
+How to make a pull request 
+
+1 fork the repo
+clone the repo into your local machine
+
+git clone https://github.com/<YourUserName>/demo
+
+Create a new branch 
+git checkout -b new_branch
+
+create an upstream repo from the original repo
+git remote add upstream https://github.com/kedark3/demo
+
+make your changes
+
+check your changes made and uncommitted files
+git status
+
+add the uncommitted files
+git add filename
+
+commit the changes
+git commit -m "commit message"
+
+push the changes to your remote repo
+git push https://<yourtoken>@github.com/gachaukingori/your_repo.git
+
+
+Click compare & pull request 
+
+Create pull request 
+
+
+
